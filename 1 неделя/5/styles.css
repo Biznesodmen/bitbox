@@ -1,0 +1,16 @@
+.weather-icon {
+    font-size: 3rem;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.weather-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.weather-item:last-child {
+    border-bottom: none;
+}
